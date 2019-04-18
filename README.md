@@ -1,6 +1,7 @@
 # portfolio
 
 # 一、Animisim森靈＿3D動作冒險類遊戲＿Unity製作
+![image](https://github.com/knighLin/portfolio/blob/master/Animism森靈/Animism%20Poster.jpg)
 以十五、十六世紀西班牙探險隊尋找北美印地安人的聖地青春之泉為故事主軸，主角為易洛奎一族的巫醫繼承人,因異族的入侵族人慘遭殺害,唯有主角逃過一劫。所以玩家必須利用主角的附身能力，附身於動物，並且運用動物們特有的能力，探查青春之泉的下落，同時最終守護族人聖地，並向異族（瓦西楚）復仇。
 
 # 二、I'm not a Girl!!＿簡易3D ARPG練習＿Unity製作
