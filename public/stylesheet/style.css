@@ -1,0 +1,82 @@
+body{
+	background:#e3e5e5 !important;
+	padding: 0 !important;
+}
+/* menu
+*****************************************************************/
+#menu{
+	background-color:#ebebeb;
+	display: flex;
+    justify-content: flex-end;
+    position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+#menu ul {
+	list-style-type: none;/*Removes the bullets*/
+	margin: 0 !important;
+	padding: 0 3vmin;
+	overflow: hidden;
+}
+#menu li{
+	float: left;
+	text-align: center;
+}
+#menu li a {
+	padding: 1vmin;
+	display: block;
+	width: 10vmin;
+	height: 100%;
+	color: gray;
+	font-size: 3vmin;
+}
+#menu li a:hover {
+	background-color: #666;
+	color: white;
+	text-decoration: none;
+}
+/* content
+*****************************************************************/
+#content{
+	margin-top: 7vmin;
+	background-color:#e3e5e5;
+	background-image: url("../img/grid.png");
+	background-repeat: repeat-x;
+	padding: 3.5vmin;
+}
+
+/*.carousel-inner img {
+	width: 100%;
+	height: auto;
+}*/
+
+.introdution{
+	/*height: 50vh;*/
+	width: 100%;
+	justify-content:center;
+	padding: 2vmin;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.gameScreen img{
+	width: 100%;
+	height: auto;
+	padding-top: 1vmin;
+}
+
