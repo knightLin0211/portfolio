@@ -1,22 +1,32 @@
 body{
-	background:#e3e5e5 !important;
 	padding: 0 !important;
+	background: black !important;
+}
+div{
+	color: white;
 }
 /* menu
 *****************************************************************/
 #menu{
-	background-color:#ebebeb;
-	display: flex;
-    justify-content: flex-end;
+	background-color:#e7f3ff;
     position: fixed;
 	top: 0;
-	width: 100%;
+	width: 100vw;
 	z-index: 100;
+}
+#menu div{
+	display: flex;
+	padding: 0.5vmin 4vmin;
+	align-items: center; 
+	height:5.5vmin;
+}
+#menu img{
+	height: 85%;
+	width: auto;
 }
 #menu ul {
 	list-style-type: none;/*Removes the bullets*/
 	margin: 0 !important;
-	padding: 0 3vmin;
 	overflow: hidden;
 }
 #menu li{
@@ -24,12 +34,12 @@ body{
 	text-align: center;
 }
 #menu li a {
+	margin:0 1vmin;
 	padding: 1vmin;
 	display: block;
-	width: 10vmin;
 	height: 100%;
 	color: gray;
-	font-size: 3vmin;
+	font-size: 2.5vmin;
 }
 #menu li a:hover {
 	background-color: #666;
@@ -40,19 +50,16 @@ body{
 *****************************************************************/
 #content{
 	margin-top: 7vmin;
-	background-color:#e3e5e5;
-	background-image: url("../img/grid.png");
-	background-repeat: repeat-x;
+	background: black;
 	padding: 3.5vmin;
 }
 
-/*.carousel-inner img {
+.carousel-inner img {
 	width: 100%;
 	height: auto;
-}*/
+}
 
 .introdution{
-	/*height: 50vh;*/
 	width: 100%;
 	justify-content:center;
 	padding: 2vmin;
@@ -80,3 +87,29 @@ body{
 	padding-top: 1vmin;
 }
 
+/* contact
+*****************************************************************/
+
+#contact{
+	background-color:#3B4A5E;
+	color: white;
+	padding: 2vmin;
+}
+#contact img{
+	-webkit-filter: invert(100%); /* Safari */
+  filter: invert(100%);
+}
+
+a div:hover {
+  background-color:rgba(179, 221, 255,50);
+}
+
+.skills div ul{
+	padding: 0;
+	list-style-type: none;/*Removes the bullets*/
+	margin: 0 2vmin 0 0;
+}
+
+.skills div ul li{
+	font-size: 2vmin;
+}

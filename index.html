@@ -4,6 +4,10 @@
 		<title>Knight's portfolio</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="./public/stylesheet/style.css">
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<!-- font family Ubuntu -->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu"/>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 		<!-- jQuery library -->
@@ -15,7 +19,11 @@
 		<script src="./public/js/index.js"></script>
 	</head>
 	<body class="container-fluid">
-			<div id="menu">
+		<div id="menu"  class="row" style="margin: 0;">
+			<div class="col-6">
+				<img src="./public/img/Mark.png">
+			</div>
+			<div class="col-6" style="justify-content: flex-end;">
 				<ul>
 					<li>
 						<a class="portfolio" href="#portfolio">作品</a>
@@ -26,249 +34,278 @@
 				</ul>
 			</div>
 		</div>
+		</div>
 		<div id="content">
 			<div id="portfolio">
 				<div class="carousel-inner">
-				  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-				  <!-- The slideshow -->
-				  <div class="carousel-inner">
-				    <div id="Animism" class="carousel-item active">
-				    	<img src="./Animism森靈/Animism Poster.jpg" style="width: 100%;height: auto;">
-						<div class="container introdution" align="center">
-							<h2>
-								Animism森靈
-							</h2>
-							<p align="justify">
-								以十五、十六世紀西班牙探險隊尋找北美印地安人的聖地青春之泉為故事主軸，主角為易洛奎一族的巫醫繼承人,因異族的入侵族人慘遭殺害,唯有主角逃過一劫。所以玩家必須利用主角的附身能力，附身於動物，並且運用動物們特有的能力，探查青春之泉的下落，同時最終守護族人聖地，並向異族（瓦西楚）復仇。
-								<small>※瓦西楚：意為印地安人對外族人的統稱。</small>
-							</p>
-							<div style="margin: 2vmin 0;">
-								<div class="row">
-									<div class="col-12 col-md-6">
-										<h3>宣傳片</h3>
-										<div class="video-container">
-										<iframe width="560" height="315" src="https://www.youtube.com/embed/71TX_OgbXm8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								</div>
-									</div>
-									<div class="col-12 col-md-6">
-										<h3>操作說明</h3>
-										<div class="video-container">
-											<iframe width="560" height="315" src="https://www.youtube.com/embed/1PVNhADVyT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  	<!-- The slideshow -->
+					  	<div class="carousel-inner">
+					    	<div id="Animism" class="carousel-item active">
+						    	<img src="./Animism森靈/Animism Poster.jpg">
+								<div class="container introdution" align="center">
+									<h2>
+										Animism森靈
+									</h2>
+									<p align="justify">
+										以十五、十六世紀西班牙探險隊尋找北美印地安人的聖地青春之泉為故事主軸，主角為易洛奎一族的巫醫繼承人,因異族的入侵族人慘遭殺害,唯有主角逃過一劫。所以玩家必須利用主角的附身能力，附身於動物，並且運用動物們特有的能力，探查青春之泉的下落，同時最終守護族人聖地，並向異族（瓦西楚）復仇。
+										<small>※瓦西楚：意為印地安人對外族人的統稱。</small>
+									</p>
+									<div style="margin: 2vmin 0;">
+										<div class="row">
+											<div class="col-12 col-md-6">
+												<h3>宣傳片</h3>
+												<div class="video-container">
+													<iframe width="560" height="315" src="https://www.youtube.com/embed/71TX_OgbXm8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>
+											</div>
+											<div class="col-12 col-md-6">
+												<h3>操作說明</h3>
+												<div class="video-container">
+													<iframe width="560" height="315" src="https://www.youtube.com/embed/1PVNhADVyT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>
+											</div>
 										</div>
 									</div>
+									<div class="gameScreen" style="margin: 2vmin 0;">
+										<h4>遊戲畫面</h4>
+										<div class="row">
+											<div class="col-12 col-md-6">
+												<img src="./Animism森靈/Batttle.jpg" alt="狼狀態" title="狼狀態">
+											</div>
+											<div class="col-12 col-md-6">
+												<img src="./Animism森靈/Bear Attack.jpg" alt="熊的特殊技能" title="熊的特殊技能">
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-12 col-md-6">
+												<img src="./Animism森靈/Spring of youth.jpg" alt="青春之泉" title="青春之泉">
+											</div>
+											<div class="col-12 col-md-6">
+												<img src="./Animism森靈/Possessed.jpg" alt="附身狀態" title="附身狀態">
+											</div>
+										</div>
+									</div>
+									<div align="left">
+										團隊人數：6人<br>
+										製作時間：6個月<br>
+										本人負責：程式架構、附身玩法機制、角色控制、敵人AI系統、動物控制與AI和整合<br>
+										製作軟體：Unity，MAYA，ZBrush，Topogun，Substance Painter，Adobe PS<br>
+										遊戲最低系統需求：
+										<ul>
+											<li>作業系統：Windows 7 SP1 +，8,10,64位</li>
+											<li>處理器（CPU）：Intel（R）Core（TM）i7-4790 CPU @ 3.60GHZ</li>
+											<li>記憶體（RAM）：8 GB或更大</li>
+											<li>繪圖卡：GeForce GTX1050 Ti</li>
+											<li>可用硬碟空間：10GB</li>
+											<li>其他設備需求：PS4手把或鍵盤</li>
+										</ul>
+										遊戲載點：<a href="https://drive.google.com/file/d/15oIuGH3N76V5vr_V25VOnILuSmOJdY7U/view?usp=sharing">Win</a><br>
+										程式邏輯：<a href="https://drive.google.com/file/d/15oIuGH3N76V5vr_V25VOnILuSmOJdY7U/view?usp=sharing">pdf</a>
+									</div>
 								</div>
-							</div>
-							<div class="gameScreen" style="margin: 2vmin 0;">
-								<h4>遊戲畫面</h4>
-								<div class="row">
-									<div class="col-12 col-md-6">
-										<img src="./Animism森靈/Batttle.jpg" alt="狼狀態" title="狼狀態">
+						    </div>
+						    <div id="NotAGirl" class="carousel-item">
+						    	<img src="./I'm not a Girl/HomePage.png">
+						    	<div class="container introdution" align="center">
+						    		<h2>
+										I'm not a Girl!!
+									</h2>
+									<p align="justify">
+										簡易3D ARPG遊戲練習，第一人稱視角，玩家在充滿粉色可愛的遊戲場景裡攻擊怪物，打完所有怪物即可過關，途中沒有血量補給。這是一個不是你死就是我活並且證明自己是一個查埔囝的遊戲。
+									</p>
+									<div style="margin: 2vmin 0;">
+										<div class="col-12 col-md-6">
+											<h3>遊玩影片</h3>
+											<div class="video-container">
+												<iframe width="560" height="315" src="https://www.youtube.com/embed/oi86HRUUPrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div>
+										</div>
 									</div>
-									<div class="col-12 col-md-6">
-										<img src="./Animism森靈/Bear Attack.jpg" alt="熊的特殊技能" title="熊的特殊技能">
+									<div class="gameScreen" style="margin: 2vmin 0;">
+										<h4>遊戲畫面</h4>
+										<div class="row">
+											<div class="col-12 col-md-6">
+												<img src="./I'm not a Girl/screen1.png" alt="遊戲場景" title="遊戲場景">
+											</div>
+											<div class="col-12 col-md-6">
+												<img src="./I'm not a Girl/screen2.png" alt="怪物死亡" title="怪物死亡">
+											</div>
+										</div>
+									</div>
+									<div align="left">
+										團隊人數：3人<br>
+										製作時間：2個月<br>
+										本人負責：程式、怪物建模和整合<br>
+										製作軟體：Unity，MAYA，ZBrush<br>
+										遊戲載點：<a href="https://drive.google.com/file/d/1oQSc4Pqu6WEjLohlB573-CebKvhRUvU3/view?usp=sharing">Win</a>&nbsp
+										<a href="https://drive.google.com/file/d/1v7ZGO8BRguYzxCm7bpYarAQKCz8xTwNf/view?usp=sharing">Mac</a><br>
+										程式邏輯：<a href="https://drive.google.com/file/d/15oIuGH3N76V5vr_V25VOnILuSmOJdY7U/view?usp=sharing">pdf</a>
 									</div>
 								</div>
-								<div class="row">
-									<div class="col-12 col-md-6">
-										<img src="./Animism森靈/Spring of youth.jpg" alt="青春之泉" title="青春之泉">
+						    </div>
+						    <div id="Phocus" class="carousel-item">
+						    	<img src="./Phocus/HomePage.png">
+						    	<div class="container introdution" align="center">
+						    		<h2>
+										PHOCUS紙娃娃換裝網頁
+									</h2>
+									<p>
+										使用者能自行組合娃娃樣式，選擇喜歡的背景，打上祝福的文字，就可以當作節慶賀卡，分享到Facebook給朋友。
+									</p>
+									<div style="margin: 2vmin 0;">
+										<div class="col-12 col-md-6">
+											<h3>遊玩影片</h3>
+											<div class="video-container">
+												<iframe width="560" height="315" src="https://www.youtube.com/embed/nyhgmA8xFGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div>
+										</div>
 									</div>
-									<div class="col-12 col-md-6">
-										<img src="./Animism森靈/Possessed.jpg" alt="附身狀態" title="附身狀態">
+						    		<div class="gameScreen" style="margin: 2vmin 0;">
+										<h4>遊戲畫面</h4>
+										<div class="row">
+											<div class="col-12 col-md-6">
+												<img src="./Phocus/Screen1.png" alt="遊戲畫面" title="遊戲畫面">
+											</div>
+											<div class="col-12 col-md-6">
+												<img src="./Phocus/Screen2.png" alt="遊戲畫面" title="遊戲畫面">
+											</div>
+										</div>
+									</div>
+									<div align="left">
+										團隊人數：3人<br>
+										製作時間：2個月<br>
+										本人負責：前端與後端<br>
+										製作軟體：Html5、CSS、JavaScript、Node.JS<br>
+										遊戲網站：<a href="http://13.113.204.46:8080/door.html">網站</a><br>
+										程式邏輯：<a href="https://drive.google.com/file/d/15oIuGH3N76V5vr_V25VOnILuSmOJdY7U/view?usp=sharing">pdf</a>
 									</div>
 								</div>
-							</div>
-							<div align="left">
-								團隊人數：6人<br>
-								製作時間：6個月<br>
-								本人負責：程式架構、附身玩法機制、角色控制、敵人AI系統、動物控制與AI和整合<br>
-								製作軟體：Unity，MAYA，ZBrush，Topogun，Substance Painter，Adobe PS<br>
-								遊戲最低系統需求：
-								<ul>
-									<li>作業系統：Windows 7 SP1 +，8,10,64位</li>
-									<li>處理器（CPU）：Intel（R）Core（TM）i7-4790 CPU @ 3.60GHZ</li>
-									<li>記憶體（RAM）：8 GB或更大</li>
-									<li>繪圖卡：GeForce GTX1050 Ti</li>
-									<li>可用硬碟空間：10GB</li>
-									<li>其他設備需求：PS4手把或鍵盤</li>
-								</ul>
-								遊戲載點：<a href="https://drive.google.com/file/d/15oIuGH3N76V5vr_V25VOnILuSmOJdY7U/view?usp=sharing">Win</a>
-							</div>
+						    </div>
+						    <div id="Bacteria" class="carousel-item">
+						    	<img src="./Bacteria/HomePage.png">
+						    	<div class="container introdution" align="center">
+						    		<h2>
+										Bacteria
+									</h2>
+									<p align="justify">
+										2D細菌養成遊戲，玩家必須照顧自己的細菌、完成遊戲內工作任務,透過完成任務賺取金幣來維持生存條件,直到細菌死亡。大二的期末作業，第一次接觸Unity的產物。
+									</p>
+									<div style="margin: 2vmin 0;">
+										<div class="col-12 col-md-6">
+											<h3>遊玩影片</h3>
+											<div class="video-container">
+												<iframe width="560" height="315" src="https://www.youtube.com/embed/KCWyQJJUJZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div>
+										</div>
+									</div>
+						    		<div class="gameScreen" style="margin: 2vmin 0;">
+										<h4>遊戲畫面</h4>
+										<div class="row">
+											<div class="col-12 col-md-6">
+												<img src="./Bacteria/Screen1.png" alt="選角" title="選角">
+											</div>
+											<div class="col-12 col-md-6">
+												<img src="./Bacteria/Screen2.png" alt="醫院" title="醫院">
+											</div>
+											<div class="col-12 col-md-6">
+												<img src="./Bacteria/Screen3.png" alt="餐廳" title="餐廳">
+											</div>
+											<div class="col-12 col-md-6">
+												<img src="./Bacteria/Screen4.png" alt="工作" title="工作">
+											</div>
+										</div>
+									</div>
+									<div align="left">
+										團隊人數：5人<br>
+										製作時間：2個月<br>
+										本人負責：遊戲架構、生命系統、介面<br>
+										製作軟體：Unity、Adobe AI<br>
+										遊戲載點：<a href="https://drive.google.com/file/d/1V0hV12Jd4I-_5v96yNwl7IQuz6u1smYx/view?usp=sharing">Win</a>&nbsp
+										<a href="https://drive.google.com/file/d/1oTBKRmK_P-LLewcCBitPAiZQBbZVThtc/view?usp=sharing">Mac</a><br>
+										程式邏輯：<a href="https://drive.google.com/file/d/15oIuGH3N76V5vr_V25VOnILuSmOJdY7U/view?usp=sharing">pdf</a>
+									</div>
+								</div>
+						    </div>
+						    <div id="LostOfLife" class="carousel-item">
+						    	<img src="./Lost of Life/HomePage.png">
+						    	<div class="container introdution" align="center">
+						    		<h2>
+										Lost of Life
+									</h2>
+									<p>
+										第一個完整的遊戲程式，以Flash製作，有猜拳和眼力考驗兩關的關卡小遊戲，並且模仿RPG的假loading畫面和選角畫面。
+									</p>
+									<div style="margin: 2vmin 0;">
+										<div class="col-12 col-md-6">
+											<h3>遊玩影片</h3>
+											<div class="video-container">
+												<iframe width="560" height="315" src="https://www.youtube.com/embed/rd5zYiPho2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div>
+										</div>
+									</div>
+						    		<div class="gameScreen" style="margin: 2vmin 0;">
+										<h4>遊戲畫面</h4>
+										<div class="row">
+											<div class="col-12 col-md-6">
+												<img src="./Lost of Life/screen1.png" alt="遊戲場景" title="遊戲場景">
+											</div>
+											<div class="col-12 col-md-6">
+												<img src="./Lost of Life/screen2.png" alt="怪物死亡" title="怪物死亡">
+											</div>
+										</div>
+									</div>
+									<div align="left">
+										團隊人數：2人<br>
+										製作時間：2個月<br>
+										本人負責：程式<br>
+										製作軟體：Flash、Adobe PS<br>
+										設備需求：電腦需安裝Adobe Flash Player<br>
+										遊戲載點：<a href="https://drive.google.com/file/d/1j91aFhXHJgWR28tXTVIm3xG2gQe6h4jF/view?usp=sharing">Flash</a><br>
+										程式邏輯：<a href="https://drive.google.com/file/d/15oIuGH3N76V5vr_V25VOnILuSmOJdY7U/view?usp=sharing">pdf</a>
+									</div>
+								</div>
+						    </div>
 						</div>
-				    </div>
-				    <div id="NotAGirl" class="carousel-item">
-				    	<img src="./I'm not a Girl/HomePage.png"  style="width: 100%;height: auto;">
-				    	<div class="container introdution" align="center">
-				    		<h2>
-								I'm not a Girl!!
-							</h2>
-							<p align="justify">
-								簡易3D ARPG遊戲練習，第一人稱視角，玩家在充滿粉色可愛的遊戲場景裡攻擊怪物，打完所有怪物即可過關，途中沒有血量補給。這是一個不是你死就是我活並且證明自己是一個查埔囝的遊戲。
-							</p>
-							<div style="margin: 2vmin 0;">
-								<div class="col-12 col-md-6">
-									<h3>遊玩影片</h3>
-									<div class="video-container">
-										<iframe width="560" height="315" src="https://www.youtube.com/embed/oi86HRUUPrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									</div>
-								</div>
-							</div>
-							<div class="gameScreen" style="margin: 2vmin 0;">
-								<h4>遊戲畫面</h4>
-								<div class="row">
-									<div class="col-12 col-md-6">
-										<img src="./I'm not a Girl/screen1.png" alt="遊戲場景" title="遊戲場景">
-									</div>
-									<div class="col-12 col-md-6">
-										<img src="./I'm not a Girl/screen2.png" alt="怪物死亡" title="怪物死亡">
-									</div>
-								</div>
-							</div>
-							<div align="left">
-								團隊人數：3人<br>
-								製作時間：2個月<br>
-								本人負責：程式、怪物建模和整合<br>
-								製作軟體：Unity，MAYA，ZBrush<br>
-								遊戲載點：
-								<a href="https://drive.google.com/file/d/1oQSc4Pqu6WEjLohlB573-CebKvhRUvU3/view?usp=sharing">Win</a>&nbsp
-								<a href="https://drive.google.com/file/d/1v7ZGO8BRguYzxCm7bpYarAQKCz8xTwNf/view?usp=sharing">Mac</a>
-							</div>
-						</div>
-				    </div>
-				    <div class="carousel-item">
-				    	<img src="./Phocus/HomePage.png"  style="width: 100%;height: auto;">
-				    	<div class="container introdution" align="center">
-				    		<h2>
-								PHOCUS紙娃娃換裝網頁
-							</h2>
-							<p align="justify">
-								2D細菌養成遊戲，玩家必須照顧自己的細菌、完成遊戲內工作任務,透過完成任務賺取金幣來維持生存條件,直到細菌死亡。大二的期末作業，第一次接觸Unity的產物。
-							</p>
-							<div style="margin: 2vmin 0;">
-								<div class="col-12 col-md-6">
-									<h3>遊玩影片</h3>
-									<div class="video-container">
-										<iframe width="560" height="315" src="https://www.youtube.com/embed/nyhgmA8xFGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									</div>
-								</div>
-							</div>
-				    		<div class="gameScreen" style="margin: 2vmin 0;">
-								<h4>遊戲畫面</h4>
-								<div class="row">
-									<div class="col-12 col-md-6">
-										<img src="./Phocus/screen1.png" alt="遊戲畫面" title="遊戲畫面">
-									</div>
-									<div class="col-12 col-md-6">
-										<img src="./Phocus/screen2.png" alt="遊戲畫面" title="遊戲畫面">
-									</div>
-								</div>
-							</div>
-							<div align="left">
-								團隊人數：3人<br>
-								製作時間：2個月<br>
-								本人負責：前端與後端<br>
-								製作軟體：Html5、CSS、JavaScript、Node.JS<br>
-								遊戲網站：<a href="http://13.113.204.46:8080/door.html">網站</a>
-							</div>
-						</div>
-				    </div>
-				    <div class="carousel-item">
-				    	<img src="./Bacteria/HomePage.png"  style="width: 100%;height: auto;">
-				    	<div class="container introdution" align="center">
-				    		<h2>
-								Bacteria
-							</h2>
-							<p align="justify">
-								2D細菌養成遊戲，玩家必須照顧自己的細菌、完成遊戲內工作任務,透過完成任務賺取金幣來維持生存條件,直到細菌死亡。大二的期末作業，第一次接觸Unity的產物。
-							</p>
-							<div style="margin: 2vmin 0;">
-								<div class="col-12 col-md-6">
-									<h3>遊玩影片</h3>
-									<div class="video-container">
-										<iframe width="560" height="315" src="https://www.youtube.com/embed/2xNG4Afpt34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									</div>
-								</div>
-							</div>
-				    		<div class="gameScreen" style="margin: 2vmin 0;">
-								<h4>遊戲畫面</h4>
-								<div class="row">
-									<div class="col-12 col-md-6">
-										<img src="./Bacteria/screen1.png" alt="選角" title="選角">
-									</div>
-									<div class="col-12 col-md-6">
-										<img src="./Bacteria/screen2.png" alt="醫院" title="醫院">
-									</div>
-									<div class="col-12 col-md-6">
-										<img src="./Bacteria/screen3.png" alt="餐廳" title="餐廳">
-									</div>
-									<div class="col-12 col-md-6">
-										<img src="./Bacteria/screen4.png" alt="工作" title="工作">
-									</div>
-								</div>
-							</div>
-							<div align="left">
-								團隊人數：5人<br>
-								製作時間：2個月<br>
-								本人負責：程式<br>
-								製作軟體：Unity、Adobe AI<br>
-								遊戲載點：
-								<a href="https://drive.google.com/file/d/1V0hV12Jd4I-_5v96yNwl7IQuz6u1smYx/view?usp=sharing">Win</a>&nbsp
-								<a href="https://drive.google.com/file/d/1oTBKRmK_P-LLewcCBitPAiZQBbZVThtc/view?usp=sharing">Mac</a>
-							</div>
-						</div>
-				    </div>
-				    <div class="carousel-item">
-				    	<img src="./Lost of Life/HomePage.png"  style="width: 100%;height: auto;">
-				    	<div class="container introdution" align="center">
-				    		<h2>
-								Lost of Life
-							</h2>
-							<p>
-								第一個完整的遊戲程式，以Flash製作，有猜拳和眼力考驗兩關的關卡小遊戲，並且模仿RPG的假loading畫面和選角畫面。
-							</p>
-							<div style="margin: 2vmin 0;">
-								<div class="col-12 col-md-6">
-									<h3>遊玩影片</h3>
-									<div class="video-container">
-										<iframe width="560" height="315" src="https://www.youtube.com/embed/rd5zYiPho2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									</div>
-								</div>
-							</div>
-				    		<div class="gameScreen" style="margin: 2vmin 0;">
-								<h4>遊戲畫面</h4>
-								<div class="row">
-									<div class="col-12 col-md-6">
-										<img src="./Lost of Life/screen1.png" alt="遊戲場景" title="遊戲場景">
-									</div>
-									<div class="col-12 col-md-6">
-										<img src="./Lost of Life/screen2.png" alt="怪物死亡" title="怪物死亡">
-									</div>
-								</div>
-							</div>
-							<div align="left">
-								團隊人數：2人<br>
-								製作時間：2個月<br>
-								本人負責：程式<br>
-								製作軟體：Flash、Adobe PS<br>
-								設備需求：電腦需安裝Adobe Flash Player<br>
-								遊戲載點：
-								<a href="https://drive.google.com/file/d/1j91aFhXHJgWR28tXTVIm3xG2gQe6h4jF/view?usp=sharing">Flash</a>
-							</div>
-						</div>
-				    </div>
-				  </div>
 				  <!-- Left and right controls -->
-				  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-				    <span class="carousel-control-prev-icon"></span>
-				  </a>
-				  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-				    <span class="carousel-control-next-icon"></span>
-				  </a>
+						<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+					</div>
 				</div>
 			</div>
-			<div id="contact">
-				
+		</div>	
+		<div id="contact" class="row justify-content-center" style="margin:0;">
+			<div class="col-5">
+				<img src="./public/img/Mark.png"style="width:auto; height:3vmin;margin:1vmin;"><br>
+				<i class="fas fa-map-marker-alt" style="font-size: 2vmin;padding:0.5vmin 1vmin;">&nbsp台北市</i><br>
+				<i class="fas fa-mobile-alt"style="font-size: 2vmin;padding:0.5vmin 1vmin;">&nbsp0988416051</i><br>
+				<i class="fas fa-envelope"style="font-size: 2vmin;padding:0.5vmin 1vmin;">&nbspknightlin0211@gmail.com</i><br>
+				<a href="https://www.facebook.com/profile.php">
+					<div  class="ah" style="padding:0.5vmin 1vmin;width:5vmin;">
+						<i class="fab fa-facebook" style="font-size:4vmin; color:#5599FF;"></i>
+					</div>
+				</a>
 			</div>
-
+			<div class="col-5 skills">
+				<img src="./public/img/skill_mark.png" style="width:auto; height:3vmin;margin:1vmin;"><br>
+				<div class="row" style="margin:0 1vmin;">
+					<ul style="">
+						<li>C#</li>
+						<li>Unity 3D</li>
+						<li>JavaScript</li>
+						<li>Html5 / CSS</li>
+					</ul>
+					<ul>
+						<li>Node.js+Express</li>
+						<li>MongoDB</li>
+						<li>Linux</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
