@@ -1,14 +1,29 @@
 $(document).ready(function(){
   // Activate Carousel with a specified interval
-  $("#myCarousel").carousel({interval: 6000});
+  $("#myCarousel").carousel({interval: 500});
         
+
+  $(window).scroll(function() {
+    var top = $(document).scrollTop();
+    if(top <= $('.page').height()*5.6)
+    {
+      $('#loading').css('top', top+($(window).height()-$('#loading').height())/2+'px');
+      $('#store').css('top', top+'px');
+    }
+
+  });
   // Click on the button to start sliding 
-  $("#myBtn").click(function(){
+  $("#start").click(function(){
     $("#myCarousel").carousel("cycle");
+    $("#stop").prop('disabled',false);
+    $("#start").prop('disabled',true);
   });
 
   // Click on the button to stop sliding 
-  $("#myBtn2").click(function(){
+  $("#stop").click(function(){
     $("#myCarousel").carousel("pause");
+    $("#start").prop('disabled',false);
+    $("#stop").prop('disabled',true);
+    
   });
 });
