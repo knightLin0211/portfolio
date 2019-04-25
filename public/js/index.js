@@ -1,17 +1,15 @@
 $(document).ready(function(){
-  // Activate Carousel with a specified interval
-  $("#myCarousel").carousel({interval: 500});
-        
+  
+  $("#start").prop('disabled',true);
 
   $(window).scroll(function() {
     var top = $(document).scrollTop();
-    if(top <= $('.page').height()*5.6)
+    if(top <= $(document).height())
     {
-      $('#loading').css('top', top+($(window).height()-$('#loading').height())/2+'px');
-      $('#store').css('top', top+'px');
+      $('.arrow').css('top', top+($(window).height()-$('.arrow').height())/2+'px');
     }
-
   });
+
   // Click on the button to start sliding 
   $("#start").click(function(){
     $("#myCarousel").carousel("cycle");
@@ -24,6 +22,5 @@ $(document).ready(function(){
     $("#myCarousel").carousel("pause");
     $("#start").prop('disabled',false);
     $("#stop").prop('disabled',true);
-    
   });
 });

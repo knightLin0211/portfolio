@@ -113,3 +113,9 @@ a div:hover {
 .skills div ul li{
 	font-size: 2vmin;
 }
+
+.arrow{
+	display: flex;
+	position: absolute;
+	top:0;
+}
